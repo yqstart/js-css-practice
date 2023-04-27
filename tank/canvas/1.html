@@ -5,6 +5,13 @@
     <title>Title</title>
 </head>
 <body>
+    <canvas id="canvas"></canvas>
+    <script>
+        const el = document.querySelector('#canvas')
+        const app = el.getContext('2d')
 
+        app.fillStyle = 'red'
+        app.fillRect(0,0,300,300)
+    </script>
 </body>
 </html>
